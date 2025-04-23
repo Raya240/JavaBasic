@@ -1,0 +1,20 @@
+package hw03;
+
+public class Girl {
+  protected String name;
+
+   public Girl() {
+	 this.name = "이름없음";
+}
+	
+	public Girl(String name) {
+		this.name = name;
+	}
+	
+	
+	public void show() {
+		System.out.println( name +"는 자바 초보자이다");
+	}
+
+
+}
